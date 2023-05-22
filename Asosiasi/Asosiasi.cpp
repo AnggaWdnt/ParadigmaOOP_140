@@ -13,7 +13,7 @@ public:
 	~pasien() {
 		cout << "Pasien \"" << nama << "\" tidak ada\n";
 	}
-	void tambahanDokkter(dokter*);
+	void tambahanDokter(dokter*);
 	void cetakDokter();
 };
 
@@ -29,7 +29,7 @@ public:
 	void cetakPasien();
 };
 
-void pasien::tambahanDokkter(dokter* pDokter) {
+void pasien::tambahanDokter(dokter* pDokter) {
 	daftar_dokter.push_back(pDokter);
 }
 void pasien::cetakDokter() {
@@ -38,4 +38,8 @@ void pasien::cetakDokter() {
 		cout << a->nama << "\n";
 	}
 	cout << endl;
+}
+void dokter::tambahanPasien(pasien* pPasien) {
+	daftar_pasien.push_back(pPasien);
+	pPasien->tambahanDokter(this);
 }
