@@ -12,10 +12,10 @@ public:
 	~ibu() {
 		cout << "Ibu \"" << nama << "\" tidak ada\n";
 	}
-	void tambahanAnak(anak*);
+	void tambahAnak(anak*);
 	void cetakAnak();
 };
-void ibu::tambahanAnak(anak* pAnak) {
+void ibu::tambahAnak(anak* pAnak) {
 	daftar_anak.push_back(pAnak);
 }
 void ibu::cetakAnak() {
