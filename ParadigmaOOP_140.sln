@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ParadigmaOOP_140", "ParadigmaOOP_140\ParadigmaOOP_140.vcxproj", "{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Debug|x64.ActiveCfg = Debug|x64
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Debug|x64.Build.0 = Debug|x64
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Debug|x86.Build.0 = Debug|Win32
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Release|x64.ActiveCfg = Release|x64
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Release|x64.Build.0 = Release|x64
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Release|x86.ActiveCfg = Release|Win32
+		{CDBA93BD-2E6D-45A1-B258-1C5D5AC56E9C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FC401E9-9C2F-4E29-8E3C-949C7AD4BF36}
+	EndGlobalSection
+EndGlobal
